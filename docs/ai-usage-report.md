@@ -8,10 +8,11 @@
 
 | ID | Tool (model) | Date | Purpose | Files affected | What you changed and how you verified it |
 |---|---|---|---|---|---|
-| C01 | ChatGPT (GPT-5.6 Sol) | Oct 19, 2026 | Helped review Assignment 2 requirements, implement interactive features, debug the contact form, and improve documentation | `index.html`, `css/styles.css`, `js/script.js`, `README.md`, `docs/technical-documentation.md` | I reviewed the suggestions, added them to my existing portfolio, modified the email validation after testing, and tested the buttons, form feedback, responsive layout, and hover transition in the browser. |
-| A01 | ChatGPT (GPT-5.6 Sol) | Oct 19, 2026 | Generated the initial Show Details / Hide Details implementation | `index.html`, `css/styles.css`, `js/script.js` | I integrated the code into my existing project and tested both project buttons. |
-| A02 | ChatGPT (GPT-5.6 Sol) | Oct 19, 2026 | Generated the initial contact form validation code | `index.html`, `js/script.js` | I tested empty, invalid, and valid input and improved the email validation when the first version accepted an invalid address. |
-| A03 | ChatGPT (GPT-5.6 Sol) | Oct 19, 2026 | Suggested improvements to the README and technical documentation | `README.md`, `docs/technical-documentation.md` | I adapted the documentation to match my actual project features and Assignment 1 feedback. |
+| C01 | ChatGPT (GPT-5.6 Sol) | Oct 19, 2026 | Reviewed Assignment 2 requirements, HTML, CSS, JavaScript, form behavior, README, technical documentation, and final checklist | `index.html`, `css/styles.css`, `js/script.js`, `README.md`, `docs/technical-documentation.md` | I reviewed the feedback, checked my existing implementation, and used the conversation to verify the assignment requirements. |
+
+| A01 | ChatGPT (GPT-5.6 Sol) | Oct 19, 2026 | Reviewed the Show/Hide implementation and suggested a CSS placement improvement | `css/styles.css`, `js/script.js` | I reviewed the suggestion and checked how the Show/Hide feature works in my project. No additional code change was made from this artifact. |
+| A02 | ChatGPT (GPT-5.6 Sol) | Oct 19, 2026 | Suggested improving user feedback by using different colors for error and success messages | `js/script.js`, `css/styles.css` | I added error and success classes to the form messages, styled them with different colors, and tested both invalid and valid form submissions in the browser. |
+| A03 | ChatGPT (GPT-5.6 Sol) | Oct 19, 2026 | Reviewed the README and technical documentation against the assignment requirements | `README.md`, `docs/technical-documentation.md` | I reviewed the feedback and confirmed that the required documentation sections were included. No additional feature was added from this review. |
 
 ## Benefits and Challenges
 

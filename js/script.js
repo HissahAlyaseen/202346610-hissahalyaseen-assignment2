@@ -40,10 +40,13 @@ contactForm.addEventListener("submit", function (event) {
 
     if (name === "" || email === "" || message === "") {
         formMessage.textContent = "Please fill in all fields.";
+        formMessage.className = "error";
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
         formMessage.textContent = "Please enter a valid email address.";
+        formMessage.className = "error";
     } else {
         formMessage.textContent = "Thank you! Your message has been submitted.";
+        formMessage.className = "success";
         contactForm.reset();
     }
 });

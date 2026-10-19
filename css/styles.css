@@ -122,3 +122,11 @@ button {
 .project:hover {
     transform: translateY(-5px);
 }
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
