@@ -25,7 +25,7 @@ I learned how to:
 
 - Respond to user clicks using JavaScript event listeners.
 - Show and hide dynamic content.
-- Use `classList.toggle()`.
+- Use `classList.toggle()`
 - Validate form input using JavaScript.
 - Display success and error messages.
 - Use CSS transitions for simple animations.
