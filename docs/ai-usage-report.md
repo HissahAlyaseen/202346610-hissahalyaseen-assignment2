@@ -16,9 +16,9 @@
 
 ## Benefits and Challenges
 
-ChatGPT helped me understand the Assignment 2 requirements and add interactive JavaScript features to my existing portfolio.
+ChatGPT helped me understand the Assignment 2 requirements and review the interactive features in my existing portfolio.
 
-It was also useful for debugging. While testing the contact form, I noticed that the first email validation accepted an invalid email. I reviewed the logic and improved the validation.
+It was also useful for improving user feedback. Based on the AI suggestion, I made the error and success messages visually different and tested the change in the browser.
 
 ## Learning Outcomes
 
@@ -36,7 +36,7 @@ I learned how to:
 
 I reviewed the AI-generated suggestions before using them.
 
-I added the suggestions to my existing project, tested the features in the browser, and modified the code when testing identified problems.
+I applied the suggestion to improve user feedback by adding different styles for error and success messages. I tested the change in the browser to verify that it worked correctly.
 
 I understand the AI-assisted code included in this assignment and can explain how it works.
 
