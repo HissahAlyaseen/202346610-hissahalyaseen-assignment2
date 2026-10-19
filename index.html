@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,50 +30,63 @@
             <p>I am interested in technology, web development, and artificial intelligence.</p>
         </section>
 
-        
-       <section id="projects">
+
+        <section id="projects">
             <h2>Projects</h2>
 
-        <div class="projects-container">
+            <div class="projects-container">
 
-            <div class="project">
-                <img src="assets/images/project1.png" alt="Hello Web App project placeholder">
-                <h3>Hello Web App</h3>
-                <p>A simple web application built using Node.js and Express.</p>
+                <div class="project">
+                    <img src="assets/images/project1.png" alt="Hello Web App project placeholder">
+                    <h3>Hello Web App</h3>
+                    <p>A simple web application built using Node.js and Express.</p>
+                    <button class="details-btn" type="button">Show Details</button>
+                    <p class="project-details">
+                        This project helped me practice Node.js, Express, and basic web development concepts.
+                    </p>
+                </div>
+
+
+                <div class="project">
+                    <img src="assets/images/project2.png" alt="Recipe sharing platform placeholder">
+                    <h3>Recipe Sharing Platform</h3>
+                    <p>
+                        An in-progress recipe-sharing platform designed for users with dietary
+                        restrictions such as halal, vegan, gluten-free, and food allergies.
+                    </p>
+                    <button class="details-btn" type="button">Show Details</button>
+                    <p class="project-details">
+                        The platform includes dietary filters, ingredient substitutions, saved recipes, ratings, and
+                        meal planning.
+                    </p>
+                </div>
+
             </div>
-
-            <div class="project">
-                <img src="assets/images/project2.png" alt="Recipe sharing platform placeholder">
-                <h3>Recipe Sharing Platform</h3>
-                <p>
-                An in-progress recipe-sharing platform designed for users with dietary
-                restrictions such as halal, vegan, gluten-free, and food allergies.
-                </p>
-            </div>
-
-        </div>
-</section>
+        </section>
 
 
         <section id="contact">
-             <h2>Contact Me</h2>
+            <h2>Contact Me</h2>
 
-            <form>
+            <form id="contact-form" novalidate>
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name">
 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email">
 
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
+                <textarea id="message" name="message" rows="5"></textarea>
 
                 <button type="submit">Send</button>
+
+                <p id="form-message"></p>
             </form>
         </section>
 
     </main>
     <script src="js/script.js"></script>
-  
+
 </body>
+
 </html>
