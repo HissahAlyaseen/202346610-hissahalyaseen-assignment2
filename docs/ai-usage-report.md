@@ -41,6 +41,18 @@ I applied the suggestion to improve user feedback by adding different styles for
 
 I understand the AI-assisted code included in this assignment and can explain how it works.
 
+## AI-Assisted Commits
+
+The following commits included AI-assisted work:
+
+- `Add interactive portfolio features and documentation`
+- `Improve project documentation`
+- `Fix technical documentation`
+- `Improve form feedback with AI assistance`
+- `Improve form feedback and AI documentation`
+- `Fix AI usage report formatting`
+- `Document AI-assisted commits`
+
 ## AI Usage Declaration
 
 > I declare that this report and the attached evidence document all of my AI use in this assignment, with complete and unedited conversations, and that I understand and can explain all the code I submitted. I understand that undeclared AI use or a false declaration will be treated as plagiarism according to KFUPM regulations.
